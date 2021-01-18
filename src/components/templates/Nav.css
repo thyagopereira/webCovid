@@ -1,0 +1,44 @@
+.menu a{
+    width: 170px;
+    height: 20px;
+
+    text-decoration: none;
+    color: #fff;
+    font-family: PT Sans; 
+    font-style: bold;
+
+    border: 3px  solid  #003546;
+    padding-left: 3px;
+    padding-right: 100px;
+    position: relative;
+}
+
+.menu a:hover{
+    width: 100px;
+    left: 0px;
+    
+    border-top-width: 3px;
+    border-top-color: #fff;
+    border-top-left-radius: 20px;
+
+    border-left-color:  #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-color: #fff;
+    border-bottom-width: 3px;
+}
+
+.menu p{
+    text-align:left;
+    color: #fff;
+    font-family: PT Sans; 
+    font-style: bold;
+    font-size:18px
+}
+
+.menu-area{
+    text-align: center;
+    display: inline-block;
+    align-items: auto;
+    background-color: #003546;
+}
+

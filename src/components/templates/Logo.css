@@ -1,0 +1,12 @@
+.logo{
+    justify-content: right;
+    align-items: right;
+    vertical-align: top;
+}
+
+.logo img{
+    width: 50%;
+    vertical-align: top;
+}
+
+

@@ -1,0 +1,27 @@
+.card{
+    width: 357px;
+    height: 283px;
+    background-color:#003546;
+    border: 1px solid #003546;
+    border-radius: 20px;
+}
+
+.card h4{
+    text-align:center;
+    color: #fff;
+    font-family: PT Sans; 
+    font-style: bold;
+    font-size:34px
+}
+
+.card:hover{
+    box-shadow: 5px 10px 30px 1px rgba(0,0,0,0.253);
+}
+
+.card p{
+    text-align:center;
+    color: #fff;
+    font-family: PT Sans; 
+    font-style: bold;
+    font-size:80px
+}

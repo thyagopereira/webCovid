@@ -1,0 +1,26 @@
+.card-green{
+    width: 357px;
+    height: 283px;
+    background-color: #029583;
+    border: 1px solid #029583;
+    border-radius: 20px;
+}
+
+.card-green h4{
+    text-align:center;
+    color: #fff;
+    font-family: PT Sans; 
+    font-style: bold;
+    font-size:34px
+}
+.card-green:hover{
+    box-shadow: 5px 10px 30px 1px rgba(0,0,0,0.253);
+}
+
+.card-green p{
+    text-align:center;
+    color: #fff;
+    font-family: PT Sans; 
+    font-style: bold;
+    font-size:80px
+}

@@ -1,0 +1,30 @@
+/* Sizing variables */
+:root{
+    --logo-height: 450px;
+    --nav-height: 100px;
+    --footer-height: 40px;
+}
+
+/* Grid-area definition*/
+.logo{ grid-area: logos;}
+.menu-area{ grid-area: menu;}
+.content{ grid-area: conteudo;}
+.footer{ grid-area: rodape;}
+
+/* Grid Layout */ 
+.app {
+    margin:0px;
+    display: grid;
+    grid-template-rows:
+        var(--nav-height)
+        var(--logo-height)
+        1fr
+        var(--footer-height);
+    height:100vh;
+    background-color: #ffffff;
+    grid-template-areas: 
+        'menu menu menu'
+        'logos logos logos'
+        'conteudo conteudo conteudo'
+        'rodape rodape rodape'
+}
