@@ -8,20 +8,30 @@ export default props =>
             <p className ='proj-name'>
                 Project Name
             </p>
-            <Link to= '/'>
-                <i className='general'></i> Painel Geral
-            </Link>
-            <Link to= '/registers'>
-                <i className='reg'></i> Registros
-            </Link>
-            <Link to='/pbmap'>
-                <i className='pb-map'></i> Mapa da Paraíba
-            </Link>
-            <Link to='/cgmap'>
-                <i className='cg-map'></i> Mapa de Campina Grande
-            </Link>
-            <Link to='/about'>
-                <i className='members-us'></i> Sobre
-            </Link>
+                <Link to= '/'>
+                    <div className='border'>
+                        <i className='button'></i> Painel Geral
+                    </div>
+                </Link>
+                <Link to= '/registers'>
+                    <div className='border'>
+                        <i className='button'></i> Registros
+                    </div>
+                </Link>
+                <Link to='/pbmap'>
+                    <div className='border'>
+                        <i className='button'></i> Mapa da Paraíba
+                    </div>
+                </Link>
+                <Link to='/cgmap'>
+                    <div className='border'>
+                        <i className='button'></i> Mapa de Campina Grande
+                    </div>
+                </Link>
+                <Link to='/about'>
+                    <div className='border'>
+                        <i className='button'></i> Sobre
+                    </div>
+                </Link>
         </nav>
     </div>

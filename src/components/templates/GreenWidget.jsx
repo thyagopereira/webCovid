@@ -6,9 +6,13 @@ import PB from '../../img/pbmap.png'
 const greenWidget = props => {
     return(
         <div className= 'green-widget'> 
-        
+            <p> Gráfico de casos na Paraíba
+                <img className= 'pb' src= {PB} ></img>
+            </p>
+                <Link to='/pbmapa'>  
+                <p>Visualizar</p>
+                </Link>
         </div>
-
     )
 }
 

@@ -3,6 +3,7 @@ import  React from 'react'
 import BlueCard from './CaseConfirmedCard'
 import GreenCard from './CaseRecoverdCard'
 import BlueWidget from './BlueWidget'
+import GreenWidget from './GreenWidget'
 
 export default props =>
     <div className='full-main'>
@@ -16,7 +17,16 @@ export default props =>
             </div>
         </div>
 
-        <div className='blue-widget'>
-            <BlueWidget/>
+        <div className='widgets'>
+            <div className='blueWidget'>
+                <BlueWidget/>
+            </div>
+            <div className='greenWidget'>
+                <GreenWidget/>
+            </div>
         </div>
+
+        <div className='heatmap'>
+        </div>
+        
     </div>

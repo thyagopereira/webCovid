@@ -15,9 +15,18 @@
     padding:30px;
 }
 
-.blue-widget{
+.widgets{
+    display: block;
     height:566px;
     width:1304px;
-    padding-left:30px;
-    
+}
+
+.blueWidget{
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+.greenWidget{
+    padding-top: 15px;
+    padding-left: 30px;
 }

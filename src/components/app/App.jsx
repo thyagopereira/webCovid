@@ -5,7 +5,6 @@ import { HashRouter } from 'react-router-dom'
 import Logo from '../templates/Logo'
 import Nav from '../templates/Nav'
 import Main from '../templates/Main'
-import Footer from '../templates/Footer'
 import Routes from './Routes'
 
 export default props =>
@@ -14,7 +13,6 @@ export default props =>
             <Nav />
             <Logo />
             <Routes />
-            <Footer />
         </div>
     </HashRouter>
  
