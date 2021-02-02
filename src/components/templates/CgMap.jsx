@@ -1,11 +1,5 @@
-import './Main.css'
-import  React from 'react'
-import BlueCard from './CaseConfirmedCard'
-import GreenCard from './CaseRecoverdCard'
-import BlueWidget from './BlueWidget'
-import GreenWidget from './GreenWidget'
+import React from 'react'
 import Map from './MapContainer'
-
 const data = [
     { lat: 37.782551, lng: -122.44536800000003 },
     { lat: 37.782745, lng: -122.44458600000002 },
@@ -509,29 +503,8 @@ const data = [
     { lat: 37.751266, lng: -122.40335500000003 }
   ];
 
-export default props =>
-    <div className='full-main'>
-        <div className='main'> 
-            <div className='greenCard'>
-                <GreenCard />
-            </div>
 
-            <div className='blueCard'>
-                <BlueCard />    
-            </div>
-        </div>
-
-        <div className='widgets'>
-            <div className='blueWidget'>
-                <BlueWidget/>
-            </div>
-            <div className='greenWidget'>
-                <GreenWidget/>
-            </div>
-        </div>
-
-        <div className='heatmap'>
-            <Map center={{ lat: 37.775, lng: -122.434 }} zoom={14} positions = {data}/>
-        </div>
-        
+export default props => 
+    <div className = 'cgmap'>
+        <Map center={{ lat: 37.775, lng: -122.434 }} zoom={14} positions = {data}/>
     </div>

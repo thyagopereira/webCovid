@@ -29,4 +29,12 @@
 .greenWidget{
     padding-top: 15px;
     padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.heatmap{
+    position: relative;
+    padding-top: 220px;
+    padding-left: 30px;
+    padding-bottom: 200px;
 }
